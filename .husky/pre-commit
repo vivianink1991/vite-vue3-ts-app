@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# eslint --fix ./src --ext .vue,.js,.ts # 这样会对历史记录文件修复
+
+npx lint-staged # 只对本次add的文件修复
