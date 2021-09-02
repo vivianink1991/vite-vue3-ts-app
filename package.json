@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "build:stage": "vue-tsc --noEmit && vite build --mode stage",
     "serve": "vite preview",
     "prettier": "npx prettier --write .",
     "prepare": "husky install"
@@ -35,10 +36,12 @@
     "eslint-plugin-vue": "^7.17.0",
     "husky": "^7.0.0",
     "lint-staged": "^11.1.2",
+    "mockjs": "^1.1.0",
     "prettier": "^2.3.2",
     "sass": "^1.38.2",
     "typescript": "^4.3.2",
     "vite": "^2.5.2",
+    "vite-plugin-mock": "^2.9.6",
     "vue-tsc": "^0.2.2"
   },
   "config": {
