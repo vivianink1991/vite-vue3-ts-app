@@ -8,7 +8,7 @@
 <script lang="ts">
 import { useStore } from 'vuex'
 import { computed } from 'vue'
-import { getHomeData } from '../services/api'
+import getHomeData from '../services/api'
 
 export default {
   setup() {

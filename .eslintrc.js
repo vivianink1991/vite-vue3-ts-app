@@ -23,6 +23,7 @@ module.exports = {
         tsx: 'never'
       }
     ],
+    'no-console': 'off',
     'import/no-unresolved': 'off',
     'no-plusplus': 'off',
     'no-param-reassign': ['error', { props: false }]
